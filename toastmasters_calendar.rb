@@ -5,19 +5,19 @@ require 'byebug'
 
 def victoria_holidays_2019
   [
-    Date.parse('Tue 1 Jan 2019'),
-    Date.parse('Mon 28 Jan 2019'),
-    Date.parse('Mon 11 Mar 2019'),
-    Date.parse('Fri 19 Apr 2019'),
-    Date.parse('Sat 20 Apr 2019'),
-    Date.parse('Sun 21 Apr 2019'),
-    Date.parse('Mon 22 Apr 2019'),
-    Date.parse('Thu 25 Apr 2019'),
-    Date.parse('Mon 10 Jun 2019'),
-    Date.parse('Tue 5 Nov 2019'),
-    Date.parse('Wed 25 Dec 2019'),
-    Date.parse('Thu 26 Dec 2019')
-  ]
+    'Tue 1 Jan 2019',
+    'Mon 28 Jan 2019',
+    'Mon 11 Mar 2019',
+    'Fri 19 Apr 2019',
+    'Sat 20 Apr 2019',
+    'Sun 21 Apr 2019',
+    'Mon 22 Apr 2019',
+    'Thu 25 Apr 2019',
+    'Mon 10 Jun 2019',
+    'Tue 5 Nov 2019',
+    'Wed 25 Dec 2019',
+    'Thu 26 Dec 2019'
+  ].map { |s| Date.parse(s) }
 end
 
 def no_meeting_days_2019
